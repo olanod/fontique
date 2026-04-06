@@ -16,7 +16,7 @@ all-features = true
 workspace = true
 
 [features]
-default = ["system"]
+default = ["std", "libm"]
 std = ["read-fonts/std", "dep:memmap2"]
 libm = ["read-fonts/libm", "dep:core_maths"]
 icu_properties = ["dep:icu_properties"]

@@ -37,7 +37,7 @@ repository = "https://github.com/linebender/parley"
 all-features = true
 
 [features]
-default = []
+default = ["std", "libm"]
 fontconfig-dlopen = ["yeslogic-fontconfig-sys?/dlopen"]
 icu_properties = ["dep:icu_properties"]
 libm = [
